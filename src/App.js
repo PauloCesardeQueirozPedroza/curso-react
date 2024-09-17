@@ -1,9 +1,9 @@
-import Profile from './pages/profile';
+import AppRoutes from "./Routes";
 
 function App() {
   return (
     <div>
-      <Profile/>
+     <AppRoutes/>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import '../styles/Profile.css'
+import { FaGithub } from "react-icons/fa";
+import { SiWattpad } from "react-icons/si";
 
 const Profile = () => {
 
@@ -43,8 +45,28 @@ const Profile = () => {
                     </ul>
                     </Card.Body>
             </Row>
+
+
+
+            <Row className="justify-content-center mt-4">
+
+<Col md={8} className="text-center">
+<Button variant="dark" href="https://github.com" className="m-2">
+  <FaGithub/>  Github
+</Button>
+<Button variant="dark" href="https://www.spiritfanfiction.com/?locale=pt" className="m-2"> Spirit Fanfiction</Button>
+<Button variant="dark" href="https://www.wattpad.com" className="m-2"> Wattpad</Button>
+</Col>
+</Row>
+
+
+
+
+
         </Container>
 
+        
+      
 
     )
 }
